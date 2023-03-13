@@ -13,12 +13,7 @@ async function register(app) {
     version: pkg.version,
     collections: {
       RiderOrder: {
-        name: "RiderOrder",
-        updatedAt: { type: Date, default: Date.now },
-        createdAt: { type: Date, default: Date.now },
-      },
-      RiderOrderHistory: {
-        name: "RiderOrderHistory",
+        name: "Reports",
         updatedAt: { type: Date, default: Date.now },
         createdAt: { type: Date, default: Date.now },
       },
