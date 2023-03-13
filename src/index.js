@@ -12,7 +12,7 @@ async function register(app) {
     name: pkg.name,
     version: pkg.version,
     collections: {
-      RiderOrder: {
+      Reports: {
         name: "Reports",
         updatedAt: { type: Date, default: Date.now },
         createdAt: { type: Date, default: Date.now },
